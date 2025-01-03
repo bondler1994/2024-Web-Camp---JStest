@@ -25,6 +25,8 @@ for (let i = 0; i <= arrNum.length; i++) {
     if (arrNum[i] % 2 === 0) {
         takeEvenNum.push(arrNum[i]);
     }
-}
+}}
 
 console.log(takeEvenNum); //(5) [2, 4, 6, 8, 10]
+
+
