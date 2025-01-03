@@ -21,18 +21,10 @@ for (let i = 0; i <= 9; i++) {
 const arrNum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let takeEvenNum = [];
 
-for (let i = 0; i < arrNum.lenght; i++) {
+for (let i = 0; i <= arrNum.length; i++) {
     if (arrNum[i] % 2 === 0) {
         takeEvenNum.push(arrNum[i]);
     }
 }
 
-const arr = [1,2,3,4,5,6,7,8,9,10]
-let even = []
-
-
-for(let i = 0; i<=arr.length;i++){
-    if(arr[i] % 2 === 0){
-        even.push(arr[i])
-    }
-}
+console.log(takeEvenNum); //(5) [2, 4, 6, 8, 10]
