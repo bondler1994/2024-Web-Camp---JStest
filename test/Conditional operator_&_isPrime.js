@@ -7,3 +7,4 @@ function isPrime(num) {
 
 console.log(isPrime(22)); //false
 console.log(isPrime(23)); //true
+
