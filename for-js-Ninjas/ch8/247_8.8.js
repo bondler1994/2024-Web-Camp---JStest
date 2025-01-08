@@ -18,17 +18,17 @@ const ninja = new Ninja();
 ninja.skillLevel;
 ninja.skillLevel = 4;
 
-
+//使用get set 計算來作日誌
 
 //使用代理來建立日誌
 function makeLoggable(target) {
     return new Proxy(target, {
         get: (target, property) => {
-            console.log(`hey, I'm calling u "${target[property]}"`);
+            console.log(`hey, I'm calling u "${property}:${target[property]}"`);
             return target[property];
         },
         set: (target, property, value) => {
-            console.log(`ohh, We add "${value}" in the object`);
+            console.log(`ohh, We add "${property}:${value}" in the object`);
             target[property] = value;
         },
     });
