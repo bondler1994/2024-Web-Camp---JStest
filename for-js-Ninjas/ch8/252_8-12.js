@@ -14,7 +14,24 @@ function createNegativeArrayProxy(array) {
     });
 }
 
-const ninja = ["yoshi", "kuma", "hattori"];
+const ninjas = ["yoshi", "kuma", "hattori"];
 const proxiedNinjas = createNegativeArrayProxy(ninjas);
 
-(ninja[0] === "yoshi" && ninjas[1] === "kuma" && ninjas[2] === "hattori", "Array items accessed through positive indexes");
+console.log(ninjas[0]);
+console.log(ninjas[1]);
+console.log(ninjas[2]);
+
+console.log(proxiedNinjas[0]);
+console.log(proxiedNinjas[1]);
+console.log(proxiedNinjas[2]);
+
+console.log(typeof ninjas[-1]);
+console.log(typeof ninjas[-2]);
+console.log(typeof ninjas[-3]);
+
+console.log(proxiedNinjas[-1]);
+console.log(proxiedNinjas[-2]);
+console.log(proxiedNinjas[-3]);
+
+proxiedNinjas[-1] = "Hachi";
+ninjas[2] = "Hachi"
