@@ -33,5 +33,5 @@ console.log(proxiedNinjas[-1]);
 console.log(proxiedNinjas[-2]);
 console.log(proxiedNinjas[-3]);
 
-proxiedNinjas[-1] = "Hachi";
-ninjas[2] = "Hachi"
+proxiedNinjas[-1] = "hachi";
+ninjas[2] = "hachi"
