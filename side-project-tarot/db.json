@@ -1,0 +1,24 @@
+{
+  "entries": [
+    {
+      "created_at": "2024-05-05",
+      "user_entry_text": "今天遇到了一個挑戰，我學會了如何應對。",
+      "tarot_card": {
+        "image": "https://example.com/card-image.jpg",
+        "name": "愚者",
+        "is_upright": true,
+        "blessing_message": "勇敢地踏出新的步伐，這是充滿可能性的時刻。"
+      }
+    },
+    {
+      "created_at": "2024-03-07",
+      "user_entry_text": "今天學到了如何克服困難。",
+      "tarot_card": {
+        "image": "https://example.com/another-card-image.jpg",
+        "name": "力量",
+        "is_upright": true,
+        "blessing_message": "面對挑戰時，保持冷靜和堅定。"
+      }
+    }
+  ]
+}
